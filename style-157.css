@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+/*基本框架CSS*/
+ul, li {margin:0;padding:0;-webkit-text-size-adjust: none}
+
+
+a img {border:0}
+ul, ol, li {list-style-type:none;vertical-align:0}
+
+.red {color: #faddde;border: solid 1px #980c10;background: #d81b21;background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#A51715));background: -moz-linear-gradient(top,  #ed1c24,  #A51715);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.red:hover { background: #b61318; background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115)); background: -moz-linear-gradient(top,  #c9151b,  #a11115); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115'); color:#fff;}
+.red:active {color: #de898c;background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');}
+.cor_bs,.cor_bs:hover{color:#ffffff;}
+.keBody{background:url(imgs/class/bodyBg.jpg) repeat #333;}
+.keTitle{height:100px; text-align:center; background:url(imgs/class/bodyBg3.jpg) repeat-x bottom left; }
+.kePublic{background:#FFF; padding:50px;}
+.keBottom{color:#FFF; padding-top:25px; text-align:center;  background:url(imgs/class/bodyBg2.jpg) repeat-x top left; padding-bottom:25px}
+.keUrl{color:#FFF; font-size:30px;}
+.keUrl:hover{ text-decoration: underline; color: #FFF; }
+.mKeBanner,.mKeBanner div{text-align:center;}
+/*基本框架CSS结束，应用特效时，以上样式可删除*/
+/* 效果CSS开始 */
+.mkeFocus { height: 494px; width: 603px; border: 1px solid #C9CACB; border-radius:8px; padding-top: 7px; margin:0 auto }
+.mkeUl { margin: 0px auto; height: 486px; width: 588px; overflow: hidden; position: relative; }
+.mkeUl ul { position: absolute; left: 0px; top: 0px; height: 486px; }
+.mkeUl ul li { float: left; text-align: center; }
+.mkeUl ul li img { margin-bottom: 18px; }
+.mkeNum { background: #FFF url(imgs/class/banNum.jpg); height: 35px; width: 37px; position: absolute; z-index: 1; left: 13px; bottom: 4px; }
+.mke_ns1 {  text-align: center; height: 16px; width: 16px; position: absolute; left: 0px; top: 0px; }
+.mke_ns2 {  color: #9FA0A0; text-align: center; display: block; height: 16px; width: 16px; position: absolute; right: 0px; bottom: 0px; }
+.mkeLbtn { background: url(imgs/class/kelBtn.png) no-repeat; height: 60px; width: 60px; position: absolute; left: 6px; top: 165px; cursor: pointer; z-index: 10; }
+.mkeRbtn { position: absolute; top: 165px; right: 6px; background: url(imgs/class/kerBtn.png) no-repeat; height: 60px; width: 60px; cursor: pointer; z-index: 10; }
+/* 效果CSS结束 */

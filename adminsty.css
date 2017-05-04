@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+h1 {
+	font-size: x-large;
+	color: #000;
+	font-family:"黑体";
+}
+h4{
+	font-size: larger;
+	color: #F60;
+	font-family:"宋体";
+	font-style:inherit;
+}
+.ht{
+	font-weight:bold;
+	color:#000;
+
+}
+a.ht:link{
+	color:#FFF;
+	text-decoration: none; 
+	font-weight:bold;
+}
+a.ht:hover{
+	color: #fff;
+	text-decoration:underline;
+	font-weight:bold;
+
+}
+a.ht:visited{
+	color:#FFF;
+	text-decoration: none;
+	font-weight:bold;
+	}
+h4:link{color:#F60;}
+h4:hover{color:#F60;}
+h4.visted{color:#F60;}
+a:link {text-decoration: none;
+	       color : #000;}
+a:visited {	text-decoration: none;
+	           color: #000;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration: none;
+	          color:#585858;}
+body {
+	font-size:medium;
+	color:#000;
+	font-family:"宋体";
+	background-color: #585858;
+	margin-top: 0px;
+}
+.footer{
+	line-height:5pt;
+	font-family:"楷书";
+	font-size:12px;
+}
+.txt1{
+	font-family:"黑体";
+	font-size:30pt;
+	color:#ff7d23;
+	}
+.txt2{
+	font-family:"黑体";
+	font-size:20pt;
+}
+.txt3 {
+	font-size:medium;
+	color:#000;
+	font-family:"宋体";
+}
+.divcss
+{
+	border: 2px solid #ff7d23;
+	clip: rect(10px,10px,10px,10px);
+	width: 800px;
+	text-align: center;
+}
+.divcss2
+{
+	border: 2px solid #ff7d23;
+	clip: rect(10px,10px,10px,10px);
+	width: 1000px;
+	text-align: center;
+}
+.aptips {
+	font-family: "宋体";
+	color: #F00;
+	font-weight: bold;
+    width: 390px;
+}
+ .style1{
+font-size: large;
+font-weight: bold;
+font-family: 黑体;
+color: #FFFFFF;
+ }
+</style>
