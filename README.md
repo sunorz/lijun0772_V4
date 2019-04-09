@@ -6,7 +6,7 @@ lijun0772_V4
 
 Any questions plz send to [sunplace@live.cn](mailto:sunplace@live.cn).
 
-my blog:[卡库伊2.0](http://www.jsunplace.com).
+my blog:[卡库伊2.0](http://kkii.org).
 
 [ChangeLog](ChangeLog.md)
 
@@ -28,4 +28,4 @@ MS-SQL Server 2008 r2
 
 Copyright By Sunplace,
 
-![sunplace](http://www.jsunplace.com/copyright_by_sunplace.png)
+![sunplace](https://kkii.org/copyright_by_sunplace.png)
